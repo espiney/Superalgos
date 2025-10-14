@@ -1,5 +1,5 @@
 function newEthereumGlobalsChainIds() {
-    thisObject = {
+    let thisObject = {
         chainNameById: chainNameById
     }
     return thisObject
@@ -16,3 +16,5 @@ function newEthereumGlobalsChainIds() {
         }
     }
 }
+
+exports.newEthereumGlobalsChainIds = newEthereumGlobalsChainIds
